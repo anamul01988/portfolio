@@ -1563,11 +1563,22 @@ a:focus {
     display: inline-block;
 }
 
+/* .footer .footer-social a i {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #ffffff;
+    transition: .3s;
+} */
 .footer .footer-social a i {
     margin-right: 15px;
     font-size: 20px;
     color: #ffffff;
     transition: .3s;
+    font-size: 24px;
+    border: 1px solid #3d813a;
+    padding: 16px;
+    color: #ecde07;
+    border-radius: 50%;
 }
 
 .footer .footer-social a:last-child i {
@@ -1575,7 +1586,7 @@ a:focus {
 }
 
 .footer .footer-social a:hover i {
-    color: #414141;
+    color: wheat;
 }
 
 .footer .copyright {
