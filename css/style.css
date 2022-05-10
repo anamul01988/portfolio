@@ -242,7 +242,7 @@ a:focus {
 /*******************************/
 /********** Hero CSS ***********/
 /*******************************/
-.hero {
+/* .hero {
     position: relative;
     width: 100%;
     margin-bottom: 45px;
@@ -252,8 +252,19 @@ a:focus {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
+.hero {
+    position: relative;
+    width: 100%;
+    margin-bottom: 45px;
+    padding: 120px 0 0 0;
+    overflow: hidden;
+    background: linear-gradient(rgb(56 52 53 / 95%), #2f2d31f2), url(../img/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .hero .container-fluid {
     padding: 0;
 }
@@ -286,7 +297,7 @@ a:focus {
 }
 
 .hero .hero-text h1 {
-    color: #ffffff;
+    color: #e9e2f2;
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 3px;
@@ -1310,7 +1321,7 @@ a:focus {
 }
 
 .contact .container-fluid {
-    background: url(../img/contact.jpg) left center no-repeat;
+    background: url(../img/anamulContact.jpg) left center no-repeat;
     background-size: contain;
 }
 
@@ -1465,7 +1476,8 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    background: #EF233C;
+    /* background: #EF233C; */
+    background: #322f2f;
 }
 
 .footer .container-fluid {
