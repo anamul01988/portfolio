@@ -1584,7 +1584,7 @@ px
     border: 1px solid #3d813a;
     padding: 16px;
     color: #ecde07;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 
 .footer .footer-social a:last-child i {
